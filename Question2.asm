@@ -41,7 +41,7 @@ main:
     xor eax, eax
     call scanf
 
-    lea rsi, [printStr]
+    lea rdi, [printStr]
     lea rsi, [st]
     xor eax, eax
     call printf
